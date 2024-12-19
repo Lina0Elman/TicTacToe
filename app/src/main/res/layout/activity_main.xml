@@ -6,6 +6,7 @@
     android:gravity="center"
     android:padding="16dp">
 
+    <!-- Game Status -->
     <TextView
         android:id="@+id/statusText"
         android:layout_width="wrap_content"
@@ -14,6 +15,7 @@
         android:textSize="18sp"
         android:layout_marginBottom="20dp" />
 
+    <!-- Tic Tac Toe Grid -->
     <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,12 +28,83 @@
             android:layout_margin="5dp"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:gravity="center" />
+            android:gravity="center"
+            android:importantForAccessibility="no" />
 
-        <!-- Add the remaining buttons (button_1 to button_8) here -->
+        <Button android:id="@+id/button_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:importantForAccessibility="no" />
 
+        <Button android:id="@+id/button_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:importantForAccessibility="no" />
+
+        <Button android:id="@+id/button_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:importantForAccessibility="no" />
+
+        <Button android:id="@+id/button_4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:importantForAccessibility="no" />
+
+        <Button android:id="@+id/button_5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:importantForAccessibility="no" />
+
+        <Button android:id="@+id/button_6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:importantForAccessibility="no" />
+
+        <Button android:id="@+id/button_7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:importantForAccessibility="no" />
+
+        <Button android:id="@+id/button_8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:importantForAccessibility="no" />
     </GridLayout>
 
+    <!-- Restart Button -->
     <Button
         android:id="@+id/restartButton"
         android:layout_width="wrap_content"
